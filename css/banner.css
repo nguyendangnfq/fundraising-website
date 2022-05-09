@@ -1,0 +1,63 @@
+.banner {
+  width: 100%;
+}
+
+.banner .banner__ctn {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.banner .banner__ctn > img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  max-width: 100%;
+  max-height: auto;
+  object-fit: contain;
+}
+
+.banner .banner__ctn .banner__ctn__banner__title {
+  color: #fff;
+  width: 50%;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+.banner .banner__ctn .banner__ctn__banner__title > h2 {
+  font-size: 100px;
+  font-family: "Fredoka One", cursive;
+}
+
+.banner .banner__ctn .banner__ctn__banner__title > p {
+  font-size: 20px;
+  opacity: 0.6;
+  visibility: visible;
+  margin-top: 2rem;
+}
+
+.banner .banner__ctn .banner__ctn__banner__title .btn-about {
+  cursor: pointer;
+  background-color: orange;
+  width: 200px;
+  height: 3rem;
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5rem;
+}
+
+.btn-about > a {
+  text-decoration: none;
+  color: #fff;
+
+  font-size: 18px;
+}
+
+.banner .banner__ctn .banner__ctn__banner__title .btn-about:hover {
+  background-color: red;
+  transition: ease-in-out 0.3s;
+}
