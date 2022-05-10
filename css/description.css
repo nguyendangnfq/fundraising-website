@@ -1,0 +1,31 @@
+.description-ctn {
+  width: 100%;
+  background-color: #ccc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-ctn .description-ctn__image {
+}
+.description-ctn .description-ctn__image .img-big > img {
+  border-radius: 2rem;
+}
+
+.description-ctn .description-ctn__image .img-big .img-small > img {
+  border-radius: 2rem;
+}
+
+.description-ctn .description-ctn__image .img-big {
+  position: relative;
+}
+
+.description-ctn .description-ctn__image .img-big .img-small {
+  position: absolute;
+  bottom: 0;
+  left: -6rem;
+}
+
+.description-ctn .description-ctn__describe {
+}

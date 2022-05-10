@@ -1,0 +1,143 @@
+.slogan {
+  width: 100%;
+  padding: 150px 0 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.slogan .slogan__title {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan .slogan__title > h2 {
+  font-size: 50px;
+  width: 550px;
+  margin-top: 2rem;
+
+  text-align: center;
+}
+
+.slogan .slogan__title > img {
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 130px;
+  object-fit: contain;
+
+  opacity: 0.2;
+}
+
+.slogan__item {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+}
+
+.slogan__item__box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3rem;
+}
+
+.slogan__item__box__icon {
+  width: 180px;
+  height: 180px;
+
+  border-radius: 10rem;
+  font-size: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dove {
+  background-color: #ffded5;
+}
+
+#dove > i {
+  color: #ff5528;
+}
+
+#dove:hover,
+#dove > i:hover {
+  background-color: #ff5528;
+  transition: linear 0.3s;
+  color: #ffded5;
+}
+
+#pray {
+  background-color: #ffefd7;
+}
+
+#pray > i {
+  color: #ffa415;
+}
+
+#pray:hover,
+#pray > i:hover {
+  background-color: #ffa415;
+  color: #ffefd7;
+  transition: linear 0.3s;
+}
+
+#earth {
+  background-color: #d6f1f7;
+}
+
+#earth > i {
+  color: #2bb1ce;
+}
+
+#earth:hover,
+#earth > i:hover {
+  background-color: #2bb1ce;
+  color: #d6f1f7;
+  transition: linear 0.3s;
+}
+
+#hand-holding {
+  background-color: #cef9e8;
+}
+
+#hand-holding > i {
+  color: #26cc8c;
+}
+
+#hand-holding:hover,
+#hand-holding > i:hover {
+  background-color: #26cc8c;
+  color: #cef9e8;
+  transition: linear 0.3s;
+}
+
+.slogan__item__box__icon > i {
+  color: #fff;
+}
+
+.slogan__item__box__title {
+  margin-top: 1rem;
+}
+
+.slogan__item__box__content > p {
+  font-size: 18px;
+  width: 180px;
+  line-height: 35px;
+  margin-top: 1rem;
+
+  text-align: center;
+}

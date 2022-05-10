@@ -52,9 +52,12 @@
   color: #888;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
   height: 100%;
+
   display: flex;
   align-items: center;
+
   transition: linear 0.2s;
 }
 
