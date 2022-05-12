@@ -24,22 +24,61 @@
         <img src="./asset/logo.png" alt="LOGO" />
       </div>
       <div class="header__menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li>
-            <a href="#" class="dropdown">Pages </a>
-            <!-- <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div> -->
-          </li>
+        <div class="header__menu__dropdown--active">
+          <a href="#" class="header__menu--active">Home</a>
+        </div>
+        <div class="header__menu__dropdown">
+          <a href="#">Pages </a>
+          <div class="dropdown-content">
+            <div>
+              <a href="#">About</a>
+              <a href="#">Volunteers</a>
+              <a href="#">Become A Volunteers</a>
+              <a href="#">Testimonials</a>
+              <a href="#">Gallery</a>
+              <a href="#">FAQs</a>
+              <a href="#">404 Error</a>
+            </div>
+          </div>
+        </div>
 
-          <li><a href="#">Donations</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
+        <div class="header__menu__dropdown">
+          <a href="#">Donations</a>
+          <div class="dropdown-content">
+            <div>
+              <a href="#">Donations</a>
+              <a href="#">Donations List</a>
+              <a href="#">Donate Now</a>
+              <a href="#">Differently Albed Kids</a>
+              <a href="#">Help Child Cancer</a>
+              <a href="#">Clean Pure Water</a>
+              <a href="#">Give them Education</a>
+              <a href="#">Start a Fundrasing</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu__dropdown">
+          <a href="#">Events</a>
+          <div class="dropdown-content">
+            <div>
+              <a href="#">Events</a>
+              <a href="#">Event Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu__dropdown">
+          <a href="#">Blog</a>
+          <div class="dropdown-content">
+            <div>
+              <a href="#">Blog</a>
+              <a href="#">Blog Sidebar</a>
+              <a href="#">Blog Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu__dropdown">
+          <a href="#">Contacts</a>
+        </div>
       </div>
       <div class="header__icon">
         <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -149,7 +188,13 @@
       </div>
     </section>
     <section class="description-ctn">
-      <div class="description-ctn__image">
+      <div
+        class="description-ctn__image"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+      >
         <div class="img-big">
           <img src="./asset/welcome-one-img.jpg" alt="big-img" />
           <div class="img-small">
@@ -157,15 +202,43 @@
           </div>
         </div>
       </div>
-      <div class="description-ctn__describe"></div>
+      <div class="description-ctn__describe">
+        <div class="welcome-title">
+          <h5>WELCOME TO CHARITY</h5>
+        </div>
+        <div class="slogan-title">
+          <h1>Our Goal is to Help Poor People</h1>
+        </div>
+        <div class="paragraph">
+          <h2>Pifoxen is the largest global crowdfunding.</h2>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed
+            do eiusmod tempor incididunt ut labore et simply free text dolore
+            magna aliqua lonm andhn.
+          </p>
+        </div>
+        <div class="btn-ctn">
+          <span class="discover-span">
+            <p>DISCOVER MORE</p>
+          </span>
+          <span class="play-span">
+            <a href="#"><i class="fa-solid fa-play"></i></a>
+          </span>
+          <span class="watch-video-span">
+            <p>Watch Video</p>
+          </span>
+        </div>
+      </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/f0aba133ce.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script
-    src="https://kit.fontawesome.com/f0aba133ce.js"
-    crossorigin="anonymous"
-  ></script>
 </html>

@@ -9,7 +9,6 @@
 }
 
 .banner .banner__ctn > img {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   max-width: 100%;
   max-height: auto;

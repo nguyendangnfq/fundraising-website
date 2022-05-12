@@ -1,10 +1,10 @@
 .description-ctn {
   width: 100%;
-  background-color: #ccc;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 150px;
 }
 
 .description-ctn .description-ctn__image {
@@ -28,4 +28,37 @@
 }
 
 .description-ctn .description-ctn__describe {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.description-ctn .description-ctn__describe .welcome-title > h5 {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.description-ctn .description-ctn__describe .slogan-title > h1 {
+  font-size: 50px;
+  line-height: 60px;
+  width: 500px;
+}
+
+.description-ctn .description-ctn__describe .paragraph {
+  color: #26cc8c;
+}
+
+.description-ctn .description-ctn__describe .content > p {
+  width: 500px;
+  opacity: 0.6;
+  font-weight: bold;
+
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+.description-ctn .description-ctn__describe .btn-ctn {
+  display: flex;
+  gap: 5rem;
 }
