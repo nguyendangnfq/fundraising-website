@@ -5,18 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fundrasing Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/banner.css" />
     <link rel="stylesheet" href="./css/slogan.css" />
     <link rel="stylesheet" href="./css/description.css" />
+    <link rel="stylesheet" href="./css/boxes.css" />
   </head>
   <body>
     <section class="header">
@@ -89,14 +84,28 @@
 
     <section class="banner">
       <div class="banner__ctn">
-        <img
-          src="https://pifoxen-html.vercel.app/assets/images/backgrounds/main-slider-1-1.jpg"
-          alt="banner-image"
-        />
+        <img src="./asset/main-slider-1-1.jpg" alt="banner-image" />
         <div class="banner__ctn__banner__title">
-          <h2>Lend the Helping Hand Get Involved</h2>
-          <p>We are here to support you every step of the way</p>
-          <section class="btn-about">
+          <h2
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
+            Lend the Helping Hand Get Involved
+          </h2>
+          <p
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
+            We are here to support you every step of the way
+          </p>
+          <section
+            class="btn-about"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <a href="#">Discover More</a>
           </section>
         </div>
@@ -229,6 +238,40 @@
           <span class="watch-video-span">
             <p>Watch Video</p>
           </span>
+        </div>
+      </div>
+    </section>
+    <section class="two-boxes">
+      <div class="ctn-left">
+        <div class="img-bg"></div>
+        <div class="boxes-icon"><i class="fa-solid fa-burger"></i></div>
+        <div class="boxes-content">
+          <h2>Healthy Food</h2>
+          <p>
+            Lorem ipsum is simply free text available amet, consectetuer
+            adipiscing elit.
+          </p>
+          <div class="btn">
+            <i class="fa-brands fa-gratipay"></i>
+            <p>Donate Now</p>
+          </div>
+        </div>
+      </div>
+      <div class="ctn-right">
+        <div class="img-bg"></div>
+        <div class="boxes-icon">
+          <i class="fa-solid fa-briefcase-medical"></i>
+        </div>
+        <div class="boxes-content">
+          <h2>Medical Treatment</h2>
+          <p>
+            Lorem ipsum is simply free text available amet, consectetuer
+            adipiscing elit.
+          </p>
+          <div class="btn">
+            <i class="fa-brands fa-gratipay"></i>
+            <p>Donate Now</p>
+          </div>
         </div>
       </div>
     </section>
