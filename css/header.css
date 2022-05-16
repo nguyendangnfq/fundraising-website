@@ -64,7 +64,7 @@
 .header__menu__dropdown .dropdown-content {
   position: absolute;
   top: calc(100%);
-  min-width: 160px;
+  min-width: 200px;
 
   transition: ease 500ms;
 

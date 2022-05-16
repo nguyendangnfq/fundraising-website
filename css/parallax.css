@@ -1,0 +1,72 @@
+.parallax-ctn {
+  min-height: 45vh;
+  background-image: url(../asset/fundraishing-bg.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-ctn::after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  opacity: 0.5;
+
+  z-index: 1;
+}
+
+.parallax-ctn .parallax-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 2;
+}
+
+.parallax-ctn .parallax-inner .inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inner-content h2 {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 24px;
+}
+
+.inner-content p {
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.inner-content .btn-parallax {
+  background-color: #ffa415;
+  padding: 24px 36px;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 400ms ease;
+
+  border: none;
+  border-radius: 100vh;
+}
+
+.inner-content .btn-parallax:hover {
+  background-color: #ff5528;
+}
