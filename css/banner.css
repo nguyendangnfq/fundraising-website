@@ -19,8 +19,9 @@
   color: #fff;
   width: 50%;
   position: absolute;
-  top: 250px;
-  left: 250px;
+  top: 25%;
+  left: 10%;
+  /* transform: translateX(-50%) translateY(-50%); */
 }
 
 .banner .banner__ctn .banner__ctn__banner__title > h2 {
