@@ -36,6 +36,8 @@
 .blog-title h2 {
   line-height: 60px;
   font-size: 50px;
+
+  font-family: "Fredoka One", cursive;
 }
 
 .blog-content {
@@ -50,7 +52,6 @@
 .blog-content .blog-content-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
   width: 20%;
   border: 1px solid #ccc;

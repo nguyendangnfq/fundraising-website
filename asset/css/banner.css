@@ -1,63 +1,96 @@
 .banner {
-  width: 100%;
+  height: fit-content;
+  background-color: #000;
+  position: relative;
+
+  z-index: 1;
 }
 
-.banner .banner__ctn {
-  width: 100%;
+.banner .banner-bg {
+  background-image: url(../../asset/img/main-slider-1-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  opacity: 0.4;
+
+  z-index: -1;
+}
+
+.banner .banner-ctn {
   height: 100%;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 20rem 15rem;
+
   position: relative;
 }
 
-.banner .banner__ctn > img {
-  filter: grayscale(100%);
-  max-width: 100%;
-  max-height: auto;
-  object-fit: contain;
-}
-
-.banner .banner__ctn .banner__ctn__banner__title {
+.banner-ctn h2 {
+  font-size: 100px;
+  line-height: 90px;
   color: #fff;
   width: 50%;
-  position: absolute;
-  top: 25%;
-  left: 10%;
-  /* transform: translateX(-50%) translateY(-50%); */
-}
-
-.banner .banner__ctn .banner__ctn__banner__title > h2 {
-  font-size: 100px;
   font-family: "Fredoka One", cursive;
 }
 
-.banner .banner__ctn .banner__ctn__banner__title > p {
-  font-size: 20px;
-  opacity: 0.6;
-  visibility: visible;
-  margin-top: 2rem;
-}
-
-.banner .banner__ctn .banner__ctn__banner__title .btn-about {
-  cursor: pointer;
-  background-color: orange;
-  width: 200px;
-  height: 3rem;
-  margin-top: 2rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 5rem;
-}
-
-.btn-about > a {
-  text-decoration: none;
+.banner-ctn p {
   color: #fff;
-
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 2rem;
+  opacity: 0.6;
 }
 
-.banner .banner__ctn .banner__ctn__banner__title .btn-about:hover {
-  background-color: red;
-  transition: ease-in-out 0.3s;
+.banner-ctn .animate-icon {
+  position: relative;
+}
+
+.banner-ctn .animate-icon button {
+  border: none;
+  border-radius: 100vh;
+
+  padding: 20px 60px 20px;
+  background-color: #ffa415;
+
+  color: #fff;
+  font-size: 14px;
+
+  margin-top: 2rem;
+
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+
+.banner-ctn .animate-icon button:hover {
+  background-color: #ff5528;
+}
+
+.banner-ctn .animate {
+  top: 0;
+  left: 240px;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 2s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 240px;
+  }
+  50% {
+    left: 20%;
+  }
+  100% {
+    left: 240px;
+  }
 }
