@@ -41,7 +41,7 @@
 .blog-content {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
 
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -69,7 +69,7 @@
 }
 
 .blog-content .blog-content-box .content-img-header {
-  background-image: url(../asset/blog-1-1.jpg);
+  background-image: url(../../asset/img/blog-1-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,6 +1,6 @@
 .parallax-ctn {
   min-height: 45vh;
-  background-image: url(../asset/fundraishing-bg.jpg);
+  background-image: url(../../asset/img/fundraishing-bg.jpg);
   position: relative;
   background-attachment: fixed;
   background-position: center;
