@@ -23,11 +23,13 @@
     <link rel="stylesheet" href="./asset/css/description.css" />
     <link rel="stylesheet" href="./asset/css/boxes.css" />
     <link rel="stylesheet" href="./asset/css/parallax.css" />
+    <link rel="stylesheet" href="./asset/css/counter.css" />
     <link rel="stylesheet" href="./asset/css/blog.css" />
     <link rel="stylesheet" href="./asset/css/footer.css" />
     <link rel="stylesheet" href="./asset/css/testimonial.css" />
   </head>
   <body>
+    <!-- header -->
     <section class="header">
       <div class="header__logo">
         <img src="./asset/img/logo.png" alt="LOGO" />
@@ -62,6 +64,7 @@
             <a href="#">Start a Fundrasing</a>
           </div>
         </div>
+
         <div class="header__menu__dropdown">
           <a href="#">Events</a>
           <div class="dropdown-content">
@@ -69,6 +72,7 @@
             <a href="#">Event Details</a>
           </div>
         </div>
+
         <div class="header__menu__dropdown">
           <a href="#">Blog</a>
           <div class="dropdown-content">
@@ -88,12 +92,25 @@
       </div>
     </section>
 
+    <!-- banner-section  -->
     <section class="banner">
       <div class="banner-bg"></div>
-      <div class="banner-ctn">
+      <div
+        class="banner-ctn"
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+      >
         <h2>Lend the Helping Hand Get Involved</h2>
         <p>We are here to support you every step of the way</p>
-        <div class="animate-icon">
+        <div
+          class="animate-icon"
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
           <button>DISCOVER MORE</button>
           <div class="animate">
             <img
@@ -105,6 +122,7 @@
       </div>
     </section>
 
+    <!-- slogan-section  -->
     <section class="slogan">
       <div class="slogan__title">
         <img src="./asset/img/2560px-World_Map_Blank.svg.png" alt="world-img" />
@@ -189,6 +207,8 @@
         </div>
       </div>
     </section>
+
+    <!-- description-section  -->
     <section class="description-ctn">
       <div
         class="description-ctn__image"
@@ -234,40 +254,53 @@
         </div>
       </div>
     </section>
-    <!-- <section class="two-boxes">
-      <div class="ctn-left">
-        <div class="img-bg"></div>
-        <div class="boxes-icon"><i class="fa-solid fa-burger"></i></div>
-        <div class="boxes-content">
-          <h2>Healthy Food</h2>
-          <p>
-            Lorem ipsum is simply free text available amet, consectetuer
-            adipiscing elit.
-          </p>
-          <div class="btn">
-            <i class="fa-brands fa-gratipay"></i>
-            <p>Donate Now</p>
+
+    <!-- boxes-section  -->
+    <section class="boxes">
+      <div class="boxes-ctn">
+        <!-- box-content-1 -->
+        <div
+          class="boxes-content"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
+          <div class="icon-ctn"><i class="fa-solid fa-bowl-food"></i></div>
+          <div class="paragraph-ctn">
+            <h2>Healthy Food</h2>
+            <p>
+              Lorem ipsum is simply free text available amet, consectetuer
+              adipiscing elit.
+            </p>
+            <button><i class="fa-brands fa-gratipay"></i>Donate Now</button>
+          </div>
+        </div>
+
+        <!-- box-content-2 -->
+        <div
+          class="boxes-content"
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
+          <div class="icon-ctn">
+            <i class="fa-solid fa-briefcase-medical"></i>
+          </div>
+          <div class="paragraph-ctn">
+            <h2>Medical Treatment</h2>
+            <p>
+              Lorem ipsum is simply free text available amet, consectetuer
+              adipiscing elit.
+            </p>
+            <button><i class="fa-brands fa-gratipay"></i>Donate Now</button>
           </div>
         </div>
       </div>
-      <div class="ctn-right">
-        <div class="img-bg"></div>
-        <div class="boxes-icon">
-          <i class="fa-solid fa-briefcase-medical"></i>
-        </div>
-        <div class="boxes-content">
-          <h2>Medical Treatment</h2>
-          <p>
-            Lorem ipsum is simply free text available amet, consectetuer
-            adipiscing elit.
-          </p>
-          <div class="btn">
-            <i class="fa-brands fa-gratipay"></i>
-            <p>Donate Now</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    </section>
+
+    <!-- parallax-section  -->
     <section class="parallax-ctn">
       <div class="parallax-inner">
         <div class="inner-content">
@@ -277,6 +310,41 @@
         </div>
       </div>
     </section>
+
+    <!-- counter-section  -->
+    <section class="counter">
+      <div class="counter-ctn">
+        <!-- counter-content-1 -->
+        <div class="counter-content">
+          <i class="fa-solid fa-bullhorn"></i>
+          <h2>4850</h2>
+          <p>Total Campaigns</p>
+        </div>
+
+        <!-- counter-content-2 -->
+        <div class="counter-content">
+          <i class="fa-solid fa-money-bill"></i>
+          <h2>3456</h2>
+          <p>Raised Funds</p>
+        </div>
+
+        <!-- counter-content-3 -->
+        <div class="counter-content">
+          <i class="fa-regular fa-thumbs-up"></i>
+          <h2>480</h2>
+          <p>Satisfied Donors</p>
+        </div>
+
+        <!-- counter-content-4 -->
+        <div class="counter-content">
+          <i class="fa-solid fa-hands-asl-interpreting"></i>
+          <h2>2060</h2>
+          <p>Happy Volunteers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog-section -->
     <section class="blog-ctn">
       <div class="blog-title">
         <p>FROM THE BLOG</p>
@@ -431,6 +499,22 @@
         </div>
       </div>
     </section>
+
+    <!-- google-map  -->
+    <section class="google-map" style="height: 30%">
+      <iframe
+        width="100%"
+        height="450"
+        style="border: 0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJt-3jbZ9ioDERWbYg-9sJf1I&key=AIzaSyCnJY80h_OYvuY3A93pGkTDe9ylgOSOp8s"
+      >
+      </iframe>
+    </section>
+
+    <!-- footer  -->
     <section class="footer">
       <div class="footer-bg"></div>
       <div class="footer-content">

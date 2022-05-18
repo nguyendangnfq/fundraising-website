@@ -41,7 +41,7 @@
 
 .inner-content h2 {
   color: #fff;
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 24px;
 }
 
@@ -51,6 +51,7 @@
   line-height: 60px;
   text-align: center;
   font-family: "Fredoka One", cursive;
+  font-weight: 400;
 }
 
 .inner-content .btn-parallax {
@@ -66,8 +67,34 @@
 
   border: none;
   border-radius: 100vh;
+
+  position: relative;
+  z-index: 1;
+
+  overflow: hidden;
 }
 
-.inner-content .btn-parallax:hover {
+.inner-content .btn-parallax::after {
+  content: "";
+  height: 100%;
+
+  position: absolute;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+
   background-color: #ff5528;
+  z-index: -1;
 }
+
+.inner-content .btn-parallax:hover:after {
+  height: 100%;
+  width: 135%;
+}
+
+/* .inner-content .btn-parallax:hover {
+  background-color: #ff5528;
+} */
