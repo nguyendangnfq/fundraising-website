@@ -1,0 +1,63 @@
+.counter {
+  padding: 5rem 2rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.counter-ctn {
+  width: fit-content;
+  padding: 3rem 6rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8rem;
+
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 10px 60px 0px;
+  border-radius: 8px;
+}
+
+.counter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.counter-content:nth-child(2) i {
+  color: #ffa415;
+}
+.counter-content:nth-child(3) i {
+  color: #2bb1ce;
+}
+.counter-content:nth-child(4) i {
+  color: #26cc8c;
+}
+
+.counter-content i {
+  transition: all 500ms linear;
+  transform: scale(1) rotateY(360deg);
+  transition-delay: 0.1s;
+
+  font-size: 64px;
+  color: #ff5528;
+}
+
+.counter-content i:hover {
+  transform: scale(0.9);
+  color: #000;
+}
+
+.counter-content h2 {
+  font-family: "Fredoka One", cursive;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.counter-content p {
+  color: #787878;
+
+  font-size: 16px;
+  font-weight: 400;
+}

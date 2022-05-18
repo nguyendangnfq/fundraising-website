@@ -24,6 +24,7 @@
 
   text-align: center;
   font-family: "Fredoka One", cursive;
+  font-weight: 400;
 }
 
 .slogan .slogan__title > img {
@@ -38,11 +39,9 @@
 }
 
 .slogan__item {
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5rem;
 }
 
 .slogan__item__box {

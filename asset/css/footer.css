@@ -31,6 +31,10 @@
   align-items: center;
 }
 
+.footer-left > p {
+  color: #fff;
+}
+
 .footer-left > p > a {
   text-decoration: none;
   color: #fff;
