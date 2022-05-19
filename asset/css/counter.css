@@ -3,6 +3,7 @@
 
   display: flex;
   justify-content: center;
+  background-color: rgb(242, 240, 236);
 }
 
 .counter-ctn {
@@ -12,6 +13,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 8rem;
+  background-color: #fff;
 
   box-shadow: rgba(0, 0, 0, 0.07) 0px 10px 60px 0px;
   border-radius: 8px;

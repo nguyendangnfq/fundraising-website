@@ -58,11 +58,18 @@
   height: 180px;
 
   border-radius: 10rem;
+  border: none;
   font-size: 60px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: linear 0.3s;
+}
+
+.slogan__item__box__icon > i {
+  transition: linear 0.3s;
 }
 
 #dove {
@@ -76,7 +83,6 @@
 #dove:hover,
 #dove > i:hover {
   background-color: #ff5528;
-  transition: linear 0.3s;
   color: #ffded5;
 }
 
@@ -92,7 +98,6 @@
 #pray > i:hover {
   background-color: #ffa415;
   color: #ffefd7;
-  transition: linear 0.3s;
 }
 
 #earth {
@@ -107,7 +112,6 @@
 #earth > i:hover {
   background-color: #2bb1ce;
   color: #d6f1f7;
-  transition: linear 0.3s;
 }
 
 #hand-holding {
@@ -122,7 +126,6 @@
 #hand-holding > i:hover {
   background-color: #26cc8c;
   color: #cef9e8;
-  transition: linear 0.3s;
 }
 
 .slogan__item__box__icon > i {
