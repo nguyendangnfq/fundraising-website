@@ -67,13 +67,13 @@
 .quality-content {
   display: flex;
   justify-content: center;
-  gap: 10rem;
+  gap: 6rem;
 
   margin-top: 5rem;
 }
 
 .quality-content-left {
-  width: 25%;
+  width: 35%;
 
   display: flex;
   flex-direction: column;
@@ -166,4 +166,52 @@
   background-color: #000;
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-width: 1236px) {
+  .quality-button-ctn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quality-button-ctn button {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .quality-content-left {
+    gap: 2rem;
+    width: 40%;
+  }
+  .quality-content-right {
+    width: 50%;
+  }
+
+  .quality-content {
+    gap: 2rem;
+  }
+
+  .content-img img {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .quality-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quality-content-left {
+    width: 90%;
+  }
+
+  .quality-content-right {
+    width: 90%;
+  }
+
+  .content-img img {
+    width: 100%;
+  }
 }

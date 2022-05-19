@@ -54,7 +54,7 @@
   display: flex;
   flex-direction: column;
 
-  width: 20%;
+  width: 25%;
   border: 1px solid #ccc;
   border-radius: 8px;
 
@@ -198,4 +198,24 @@
 .content-footer .content-footer-left p {
   color: #000;
   font-weight: 400;
+}
+
+/* tablet */
+@media only screen and (max-width: 992px) {
+  .blog-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-content .blog-content-box {
+    width: 70%;
+  }
+
+  .blog-content .blog-content-box .content-img-header {
+    height: 500px;
+  }
+
+  .blog-content .blog-content-box .content-body {
+    gap: 2rem;
+  }
 }

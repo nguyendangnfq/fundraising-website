@@ -1,5 +1,5 @@
 .parallax-ctn {
-  min-height: 45vh;
+  min-height: 60vh;
   background-image: url(../../asset/img/fundraishing-bg.jpg);
   position: relative;
   background-attachment: fixed;
@@ -43,6 +43,7 @@
   color: #fff;
   opacity: 0.7;
   font-size: 24px;
+  text-align: center;
 }
 
 .inner-content p {
@@ -98,3 +99,5 @@
 /* .inner-content .btn-parallax:hover {
   background-color: #ff5528;
 } */
+
+/* @media only screen and (max-width: ) */

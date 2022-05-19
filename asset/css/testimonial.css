@@ -154,3 +154,20 @@
   height: 100%;
   font-size: 70px;
 }
+
+@media only screen and (max-width: 1440px) {
+  .testimonial-wrapper {
+    flex-direction: column;
+  }
+  .testimonial-content-right {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .testimonial-content-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
