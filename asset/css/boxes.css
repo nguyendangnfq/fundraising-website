@@ -142,3 +142,9 @@
     width: 90%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .boxes-ctn .boxes-content {
+    flex-direction: column;
+  }
+}

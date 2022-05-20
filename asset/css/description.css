@@ -1,5 +1,6 @@
 .description-ctn {
   width: 100%;
+  padding: 0 26rem;
 
   display: flex;
   justify-content: center;
@@ -7,6 +8,10 @@
   gap: 3rem;
 
   margin-bottom: 4rem;
+}
+
+.description-ctn__image {
+  width: 70%;
 }
 
 .description-ctn .description-ctn__image::before {
@@ -41,7 +46,7 @@
 
 .description-ctn .description-ctn__describe {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   flex-direction: column;
   gap: 2rem;
 }
@@ -53,7 +58,6 @@
 
 .description-ctn .description-ctn__describe .slogan-title > h1 {
   line-height: 60px;
-  width: 500px;
 
   font-size: 50px;
   font-family: "Fredoka One", cursive;
@@ -65,7 +69,6 @@
 }
 
 .description-ctn .description-ctn__describe .content > p {
-  width: 500px;
   opacity: 0.6;
   font-weight: bold;
 
@@ -120,6 +123,12 @@
   width: 135%;
 }
 
+.watch-part {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .play-span {
   background-color: #ff5528;
   padding: 20px 25px;
@@ -133,7 +142,7 @@
   background-color: #ffa415;
 }
 
-.play-span a i {
+.play-span i {
   color: #fff;
 }
 
@@ -144,9 +153,45 @@
   color: #000;
 }
 
+@media only screen and (max-width: 1440px) {
+  .description-ctn {
+    padding: 0 14rem;
+  }
+}
+
 @media only screen and (max-width: 1220px) {
   .description-ctn {
     flex-direction: column;
+    align-items: center;
+    padding: 0px 4rem;
+  }
+
+  .description-ctn .description-ctn__image .img-big > img {
+    width: 100%;
+  }
+
+  .description-ctn .description-ctn__image .img-big .img-small {
+    display: none;
+  }
+
+  .description-ctn .description-ctn__describe {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .description-ctn {
+    padding: 0px 3rem;
+  }
+
+  .description-ctn .description-ctn__describe .btn-ctn {
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .description-ctn .description-ctn__describe .slogan-title > h1 {
+    font-size: 40px;
   }
 }
 
