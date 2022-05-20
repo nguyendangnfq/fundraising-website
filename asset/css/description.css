@@ -143,3 +143,19 @@
   font-family: "Fredoka One", cursive;
   color: #000;
 }
+
+@media only screen and (max-width: 1220px) {
+  .description-ctn {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 653px) {
+  .description-ctn .description-ctn__image .img-big .img-small > img {
+    display: none;
+  }
+
+  .description-ctn .description-ctn__image::before {
+    display: none;
+  }
+}

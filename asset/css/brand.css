@@ -2,7 +2,7 @@
   padding: 5rem 0;
 
   border-top: 1px solid #ccc;
-  height: 25vh;
+  height: fit-content;
 }
 
 .brand .brand-ctn {

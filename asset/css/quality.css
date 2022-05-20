@@ -11,7 +11,7 @@
 
 .quality-button-ctn {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   justify-content: center;
 }
 
@@ -67,7 +67,7 @@
 .quality-content {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 3rem;
 
   margin-top: 5rem;
 }
@@ -168,6 +168,20 @@
   height: 100%;
 }
 
+@media only screen and (max-width: 1440px) {
+  .quality-content {
+    gap: 9rem;
+  }
+
+  .quality-button-ctn {
+    gap: 3.4rem;
+  }
+
+  .quality-button-ctn button {
+    padding: 2.5rem 6.7rem;
+  }
+}
+
 @media only screen and (max-width: 1236px) {
   .quality-button-ctn {
     flex-direction: column;
@@ -175,7 +189,7 @@
   }
 
   .quality-button-ctn button {
-    width: 80%;
+    width: 95%;
   }
 }
 
@@ -193,25 +207,29 @@
   }
 
   .content-img img {
-    width: 90%;
+    width: 100%;
   }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
   .quality-content {
     flex-direction: column;
     align-items: center;
   }
 
   .quality-content-left {
-    width: 90%;
+    width: 80%;
   }
 
   .quality-content-right {
-    width: 90%;
+    width: 80%;
   }
 
   .content-img img {
     width: 100%;
+  }
+
+  .quality-button-ctn button {
+    width: 80%;
   }
 }

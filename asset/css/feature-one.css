@@ -87,9 +87,16 @@
   transition: all 500ms ease;
 }
 
+@media screen and (max-width: 1180px) {
+  .feature-one__container {
+    max-width: 980px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .feature-one__container {
     transform: translate(-50%, 20%);
+    max-width: 710px;
   }
   .feature-one__container .feature-one__wrapper {
     flex-direction: column;

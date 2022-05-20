@@ -8,7 +8,7 @@
 
 .counter-ctn {
   width: fit-content;
-  padding: 3rem 6rem;
+  padding: 3rem 9rem;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -66,17 +66,26 @@
 
 /* tablet */
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1180px) {
   .counter-ctn {
     grid-template-columns: repeat(2, 1fr);
+    width: 970px;
+    gap: 6rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .counter-ctn {
+    width: 700px;
+    /* width: 90%; */
   }
 }
 
 /* mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .counter-ctn {
     grid-template-columns: repeat(1, 1fr);
-    width: 70%;
+    width: 90%;
     gap: 2rem;
   }
 }

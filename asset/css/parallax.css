@@ -100,4 +100,39 @@
   background-color: #ff5528;
 } */
 
-/* @media only screen and (max-width: ) */
+@media only screen and (max-width: 1024px) {
+  .inner-content p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .inner-content .btn-parallax {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .inner-content p {
+    line-height: 40px;
+  }
+
+  .parallax-ctn .parallax-inner .inner-content {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .inner-content h2 {
+    font-size: 14px;
+  }
+
+  .inner-content p {
+    line-height: 30px;
+    font-size: 30px;
+  }
+
+  .inner-content .btn-parallax {
+    font-size: 12px;
+    padding: 20px 26px;
+  }
+}
