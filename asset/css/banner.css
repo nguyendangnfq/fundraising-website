@@ -94,3 +94,30 @@
     left: 240px;
   }
 } */
+
+@media only screen and (max-width: 1024px) {
+  .banner .banner-ctn {
+    padding: 20rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-ctn h2 {
+    width: 100%;
+  }
+
+  .animate {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .banner .banner-ctn {
+    padding: 20rem 1rem;
+  }
+
+  .banner-ctn h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}

@@ -204,3 +204,29 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .description-ctn .description-ctn__image .img-big > img {
+    width: 335px;
+  }
+
+  .description-ctn {
+    align-items: flex-start;
+  }
+
+  .description-ctn .description-ctn__describe {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .description-ctn .description-ctn__image .img-big > img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .description-ctn .description-ctn__image .img-big > img {
+    width: 225px;
+  }
+}

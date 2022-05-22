@@ -9,3 +9,18 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 9999;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  outline: none;
+  background-color: #ff5528;
+  cursor: pointer;
+}
