@@ -94,9 +94,6 @@
   color: #ff5528;
 }
 
-/* .header__menu__dropdown:hover {
-  border-top: 2px solid #ff5528 !important;
-} */
 
 .header__menu__dropdown--active {
   border-top: 2px solid #ff5528 !important;
@@ -122,4 +119,131 @@
 .header__icon > a > i:hover {
   color: #ff5528;
   transition: linear 0.5s;
+}
+
+.icon-in-section{
+  display: flex;
+  gap: 2rem;
+  display: none;
+}
+
+.icon-in-section i{
+  font-size: 16px;
+  color: #fff;
+}
+
+.responsive-icon {
+  display: none;
+}
+
+.responsive-cancle {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .responsive-cancle i {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+
+
+  .header .header__menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #222;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    transition: all 0.3s ease;
+  }
+  .header .header__menu.active {
+    left: 0%;
+  }
+
+  .header__menu__dropdown {
+    height: 0;
+  }
+
+  .header__menu__dropdown--active {
+    padding: 0;
+    margin-top: 6rem;
+  }
+
+  .header__menu .header__menu__dropdown > a {
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .header__menu .header__menu__dropdown--active a {
+    font-size: 20px;
+  }
+
+  .header__menu .header__menu__dropdown--active a {
+    padding: 0;
+  }
+
+  .header__menu__dropdown .dropdown-content {
+    left: 220px;
+    top: 0;
+    background-color: #222;
+    
+  }
+
+  .header__menu__dropdown .dropdown-content > a {
+    color: #fff;
+  }
+
+  .header__menu__dropdown a:hover {
+    color: #ff5528;
+  }
+
+  .header__menu__dropdown::after {
+    content: none;
+  }
+
+  .header__menu__dropdown--active {
+    border-top: none !important;
+  }
+
+  .header__menu .responsive-cancle i {
+    font-size: 32px;
+  }
+
+  .header__icon {
+    display: none;
+  }
+
+  .responsive-icon {
+    display: inline-block;
+  }
+  
+  .responsive-cancle {
+    display: inline-block;
+  }
+
+  .responsive-icon i {
+    font-size: 24px;
+    color: #ff5528;
+  }
+
+  .responsive-icon.hide {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 0px 40px;
+  }
 }

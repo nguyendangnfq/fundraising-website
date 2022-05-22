@@ -38,6 +38,9 @@
         <img src="./asset/img/logo.png" alt="LOGO" />
       </div>
       <div class="header__menu">
+        <div class="responsive-cancle">
+          <i class="fas fa-times"></i>
+        </div>
         <div class="header__menu__dropdown--active">
           <a href="#" class="header__menu--active">Home</a>
         </div>
@@ -87,11 +90,20 @@
         <div class="header__menu__dropdown">
           <a href="#">Contacts</a>
         </div>
+        <div class="icon-in-section">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
       </div>
       <div class="header__icon">
         <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
 
         <a href="#"><i class="fa-solid fa-user"></i></a>
+      </div>
+
+      <div class="responsive-icon">
+        <i class="fas fa-bars"></i>
       </div>
     </section>
 
@@ -663,6 +675,9 @@
         </div>
       </div>
     </section>
+    <button class="scroll-top-btn" onclick="topFunction()">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script type="module">
@@ -692,5 +707,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="./asset/js/counter.js"></script>
+    <script src="./asset/js/header.js"></script>
+    <script src="./asset/js/srollToTop.js"></script>
   </body>
 </html>

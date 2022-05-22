@@ -148,3 +148,28 @@
 
   text-align: center;
 }
+
+@media only screen and (max-width: 1024px) {
+  .slogan__item {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    row-gap: 0rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slogan__item {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+
+  .slogan .slogan__title > h2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .slogan .slogan__title > h2 {
+    width: 100%;
+  }
+}
