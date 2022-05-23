@@ -62,3 +62,43 @@
 .brand-ctn .logo:nth-child(5):after {
   background-image: url("../../asset/img/brand-1-5.png");
 }
+
+@media only screen and (max-width: 1230px) {
+  .brand-ctn .logo:nth-child(1):after {
+    display: none;
+  }
+
+  .brand-ctn .logo:nth-child(5):after {
+    display: none;
+  }
+
+  .brand-ctn {
+    gap: 4rem;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .brand-ctn {
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .brand-ctn .logo:nth-child(3):after {
+    display: none;
+  }
+  .brand-ctn {
+    gap: 0rem;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .brand {
+    padding: 0;
+  }
+
+  .brand-ctn {
+    flex-direction: column;
+    align-items: center;
+  }
+}

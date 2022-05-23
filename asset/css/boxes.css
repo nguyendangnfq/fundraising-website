@@ -121,18 +121,18 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .boxes .boxes-ctn {
-    /* flex-direction: column;
-    align-items: center; */
+    flex-direction: column;
+    align-items: center;
   }
 
   .boxes-ctn .boxes-content {
-    width: 450px;
+    width: 80%;
   }
-}
+} */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .boxes .boxes-ctn {
     flex-direction: column;
     align-items: center;

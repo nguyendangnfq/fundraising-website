@@ -53,6 +53,7 @@
 
 .banner-ctn .animate-icon {
   position: relative;
+  width: 240px;
 }
 
 .banner-ctn .animate-icon button {
@@ -75,9 +76,9 @@
   background-color: #ff5528;
 }
 
-/* .banner-ctn .animate {
+.banner-ctn .animate {
   top: 0;
-  left: 240px;
+  left: 120%;
   position: absolute;
   -webkit-animation: linear infinite;
   -webkit-animation-name: run;
@@ -88,12 +89,12 @@
     left: 240px;
   }
   50% {
-    left: 20%;
+    left: 260px;
   }
   100% {
     left: 240px;
   }
-} */
+}
 
 @media only screen and (max-width: 1024px) {
   .banner .banner-ctn {

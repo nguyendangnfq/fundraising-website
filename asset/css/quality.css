@@ -233,3 +233,9 @@
     width: 80%;
   }
 }
+
+@media only screen and (max-width: 460px) {
+  .quality-button-ctn button {
+    padding: 2.5rem 1.7rem;
+  }
+}

@@ -100,6 +100,12 @@
   background-color: #ff5528;
 } */
 
+@media only screen and (max-width: 1330px) {
+  .parallax-ctn .parallax-inner .inner-content {
+    gap: 1rem;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .inner-content p {
     font-size: 40px;
