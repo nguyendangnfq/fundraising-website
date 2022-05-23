@@ -260,4 +260,8 @@
     top: 100%;
     left: 0;
   }
+
+  .header .header__menu {
+    max-width: 100%;
+  }
 }
