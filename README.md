@@ -8,4 +8,4 @@
 
 
 ### Git Workflow 
-https://unlock.quanpham.io/journey/cli/git#how-to-contribute-to-this-project - CRE: [quanpham] (https://github.com/mikunpham)
+https://unlock.quanpham.io/journey/cli/git#how-to-contribute-to-this-project - CRE: [quanpham](https://github.com/mikunpham)
