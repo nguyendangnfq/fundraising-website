@@ -83,9 +83,12 @@
   color: #ff5528;
 }
 
-#dove:hover,
-#dove > i:hover {
+#dove:hover {
   background-color: #ff5528;
+  color: #ffded5;
+}
+
+#dove:hover i {
   color: #ffded5;
 }
 
@@ -97,9 +100,11 @@
   color: #ffa415;
 }
 
-#pray:hover,
-#pray > i:hover {
+#pray:hover {
   background-color: #ffa415;
+}
+
+#pray:hover i {
   color: #ffefd7;
 }
 
@@ -111,9 +116,11 @@
   color: #2bb1ce;
 }
 
-#earth:hover,
-#earth > i:hover {
+#earth:hover {
   background-color: #2bb1ce;
+}
+
+#earth:hover i {
   color: #d6f1f7;
 }
 
@@ -125,9 +132,11 @@
   color: #26cc8c;
 }
 
-#hand-holding:hover,
-#hand-holding > i:hover {
+#hand-holding:hover {
   background-color: #26cc8c;
+}
+
+#hand-holding:hover i {
   color: #cef9e8;
 }
 

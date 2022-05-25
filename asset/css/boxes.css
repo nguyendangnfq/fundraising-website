@@ -52,7 +52,7 @@
   transition-delay: 0.1s;
 }
 
-.boxes-content .icon-ctn:hover {
+.boxes-content:hover .icon-ctn {
   transform: scale(1.2);
 }
 
